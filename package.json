@@ -1,0 +1,23 @@
+{
+  "name": "3mf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oftnlost/3mf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oftnlost/3mf/issues"
+  },
+  "homepage": "https://github.com/oftnlost/3mf#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
