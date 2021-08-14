@@ -13,7 +13,7 @@ layout: base.njk
 <div class="product">
 <img class="product-image" src="https://via.placeholder.com/300x300">
 <div class="product__details">
-	<a class="product__url" href={{product.url}}><h3 class="product__name">{{ product.data.product_name }}</h3></a>
+	<a class="product__url" href="{{ product.url | url }}"><h3 class="product__name">{{ product.data.product_name }}</h3></a>
 	<span class="product__price">{{ product.data.price }}</span>
 </div>
 </div>

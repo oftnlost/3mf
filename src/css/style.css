@@ -75,17 +75,20 @@ body {
 }
 
 .logo-small {
-	background-image: url('assets/Logo_White_M_50px.png');
+	/*background-image: url('assets/Logo_White_M_50px.png');*/
 	/*background-size: cover;*/
-	background-size: contain;
+	/*background-size: contain;*/
 	/*background-size: 71.45px 50px;*/
 	/*background-size: auto;*/
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	/*background-position:center;*/
 	/*width: 100%;*/
-	max-width: 50px;
-	padding: 1.5em;
-	margin: 1.5em;
+	/*max-width: 50px;*/
+	/*padding: 1.5em;*/
+	/*margin: 1.5em;*/
+	width: 50px;
+	padding: 0.75em;
+	margin: 0.75em;
 
 	/*width: 100px;*/
 }

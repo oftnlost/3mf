@@ -10,6 +10,6 @@ module.exports = function (eleventyConfig) {
 			input: "src",
 			output: "public",
 		},
-		pathPrefix: "/3mf"
+		pathPrefix: "/3mf/"
 	}
 }

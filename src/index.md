@@ -6,9 +6,9 @@ layout: base.njk
 <div class="background-gif"></div>
 <div class="title">
 	<!-- <img class="logo" src="https://via.placeholder.com/150"> -->
-	<img class="logo" src="assets/Logo_White_M.png">
+	<img class="logo" src="css/assets/Logo_White_M.png">
 	<h1 class="name">III MIRRORS FABRICATION</h1>
-	<a class="button" href="/shop">SHOP NOW</a>
+	<a class="button" href="{{ '/shop' | url }}">SHOP NOW</a>
 	<div class="items services">
 		<ul>
 			<li><a href="">laser cutting</a></li>

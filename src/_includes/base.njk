@@ -15,23 +15,25 @@
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
 	<!-- Favicon -->
-	<!-- <link rel="icon" type="image/png" href="src/assets/favicon-32x32.png"> -->
+	<!-- <link rel="icon" type="image/png" href="css/assets/favicon-32x32.png"> -->
+	<link rel="icon" type="image/png" href="{{ '/css/assets/favicon-32x32.png' | url }}">
 
 </head>
 
 <body>
 	<div class="hero">
 		<div class="items navigation">
-			<a href="/">
-				<div class="logo-small"></div>
-				<!-- <img class="logo-small" src="assets/Logo_White_M.png"> -->
+			<a href="{{ '/' | url }}">
+				<!-- <div class="logo-small"></div> -->
+				<!-- <img class="logo-small" src="css/assets/Logo_White_M.png"> -->
+				<img class="logo-small" src="{{ '/css/assets/Logo_White_M.png' | url }}">
 				<!-- <img class="logo-small" src="https://via.placeholder.com/50"> -->
 			</a>
 			<ul>
 				<li><a href="/">home</a></li>
-				<li><a href="/shop">shop</a></li>
-				<li><a href="/about">about</a></li>
-				<li><a href="/contact">contact</a></li>
+				<li><a href="{{ '/shop' | url }}">shop</a></li>
+				<li><a href="{{ '/about' | url }}">about</a></li>
+				<li><a href="{{ '/contact' | url }}">contact</a></li>
 			</ul>
 		</div>
 		{{ content | safe }}
