@@ -8,6 +8,11 @@ body {
 	margin:0;
 }
 
+a, button {
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-tap-highlight-color: transparent;
+}
+
 .background-gif {
 	background-image: url('assets/3mf_homepage_720.gif');
 	background-size: cover;
