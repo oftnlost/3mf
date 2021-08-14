@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ title }}</title>
-	<link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+	<title></title>
+	<link rel="stylesheet" href="/3mf/css/style.css">
 
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -16,27 +16,33 @@
 
 	<!-- Favicon -->
 	<!-- <link rel="icon" type="image/png" href="css/assets/favicon-32x32.png"> -->
-	<link rel="icon" type="image/png" href="{{ '/css/assets/favicon-32x32.png' | url }}">
+	<link rel="icon" type="image/png" href="/3mf/css/assets/favicon-32x32.png">
 
 </head>
 
 <body>
 	<div class="hero">
 		<div class="items navigation">
-			<a href="{{ '/' | url }}">
+			<a href="/3mf/">
 				<!-- <div class="logo-small"></div> -->
 				<!-- <img class="logo-small" src="css/assets/Logo_White_M.png"> -->
-				<img class="logo-small" src="{{ '/css/assets/Logo_White_M.png' | url }}">
+				<img class="logo-small" src="/3mf/css/assets/Logo_White_M.png">
 				<!-- <img class="logo-small" src="https://via.placeholder.com/50"> -->
 			</a>
 			<ul>
 				<li><a href="/">home</a></li>
-				<li><a href="{{ '/shop' | url }}">shop</a></li>
-				<li><a href="{{ '/about' | url }}">about</a></li>
-				<li><a href="{{ '/contact' | url }}">contact</a></li>
+				<li><a href="/3mf/shop">shop</a></li>
+				<li><a href="/3mf/about">about</a></li>
+				<li><a href="/3mf/contact">contact</a></li>
 			</ul>
 		</div>
-		{{ content | safe }}
+		<div class="info">
+	<a class="back-button" href="/3mf/shop">Back</a>
+	<h1>Coasters G</h1>
+	<img class="product-image" src="https://via.placeholder.com/300x300">
+	<p>This is some info about the product.</p>
+
+</div>
 	</div>
 
 </body>
