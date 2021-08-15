@@ -196,7 +196,7 @@ h3 {
 	color: white;
 }
 
-.product__url:hover {
+.product__url:hover .product__name {
 	text-decoration: underline;
 	color: white;
 }
