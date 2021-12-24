@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|VT323|Quicksand|Inconsolata');
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "YoungSerif";
+  font-weight: 500;
+  src: url("../fonts/YoungSerif-Regular.otf") format("truetype");
+  font-display: swap;
+}
